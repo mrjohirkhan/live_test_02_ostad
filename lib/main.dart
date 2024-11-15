@@ -33,11 +33,19 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Need Blood',style: TextStyle(color: Colors.white),),
+        title: Text(
+          'Need Blood',
+          style: TextStyle(color: Colors.white),
+        ),
         centerTitle: true,
         backgroundColor: Colors.red,
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.add,color: Colors.white,)),
+          IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.add,
+                color: Colors.white,
+              )),
         ],
       ),
       body: Center(
